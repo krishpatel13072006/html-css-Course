@@ -1,0 +1,66 @@
+### CSS Transition Properties Notes (Detailed)
+
+1. **`transition`**  
+    
+     transition: transform 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+
+   - Shorthand property used to apply transition effects for one or more CSS properties in a single line.  
+   - Allows setting the property to transition, its duration, timing function, and delay.
+
+
+
+2. **`transition-duration`**  
+
+     transition-duration: 2s;
+
+   - Specifies how long the transition effect will take to complete.  
+   - The duration can be set in seconds (`s`) or milliseconds (`ms`).  
+   - Example: `2s` means the transition takes 2 seconds.
+
+3. **`transition-timing-function`** 
+
+     transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+   - Defines the speed curve of the transition over its duration.  
+   - Available options:  
+     - `ease-in`: Starts slow, then accelerates.  
+     - `ease-out`: Starts fast, then slows down.  
+     - `ease-in-out`: Starts slow, accelerates, then slows down.  
+     - `linear`: Maintains a constant speed throughout.  
+     - `step-start`: Instantly jumps to the end state at the start.  
+     - `step-end`: Instantly jumps to the start state at the end.  
+     - `cubic-bezier(x1, y1, x2, y2)`: Defines a custom speed curve.
+
+4. **`transition-delay`**  
+
+      transition-delay: 0.3s;
+
+   - Specifies the amount of time to wait before starting the transition.  
+   - Can be set in seconds (`s`) or milliseconds (`ms`).  
+   - Example: `0.3s` means the transition starts after 0.3 seconds.
+
+5. **`transform`** 
+
+      .transform:hover {
+    transform: translateY(100px) scale(1.2) translateX(100px);
+}
+
+   - Applies 2D or 3D transformations to an element.  
+   - Common transformations:  
+     - `translate`: Moves the element along the X and Y axes.  
+     - `scale`: Increases or decreases the size of the element.  
+     - `rotate`: Rotates the element around a fixed axis.  
+     - `skew`: Skews the element along the X and Y axes.  
+     - `translate3d`, `rotate3d`, `scaleZ`: Apply transformations in the 3D space.
+
+
+
+6. **'Example with All Properties:'**
+
+     .box {
+    transition: transform 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+}
+
+.box:hover {
+    transform: translateY(100px) scale(1.2) translateX(100px);
+}
