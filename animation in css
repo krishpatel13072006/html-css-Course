@@ -1,0 +1,82 @@
+### CSS Animation Properties Notes
+
+1. **`animation`**  
+   - Shorthand property for combining multiple animation properties (name, duration, timing function, delay, iteration count, and direction).  
+   - Example:  
+     `animation: krish 5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s 2 alternate;`  
+     - `krish`: Animation name.  
+     - `5s`: Duration of the animation.  
+     - `cubic-bezier(...)`: Custom speed curve.  
+     - `1s`: Delay before animation starts.  
+     - `2`: Runs the animation twice.  
+     - `alternate`: Alternates between normal and reverse directions.  
+
+---
+
+2. **`@keyframes`**  
+   - Defines the steps (keyframes) in an animation.  
+   - Keyframe Example:  
+     - **`krish`** and **`codeninja`** define transformations and background color changes at percentages (0%, 25%, 50%, 75%, 100%).  
+     - Adjustments include `translate`, `scale`, `border-radius`, and `background-color`.  
+
+---
+
+3. **`animation-duration`**  
+   - Specifies the total time for one cycle of the animation.  
+   - Example: `animation-duration: 5s;`  
+     - The animation completes one cycle in 5 seconds.
+
+---
+
+4. **`animation-timing-function`**  
+   - Defines the speed curve of the animation.  
+   - Example: `animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);`  
+     - Smooth custom easing in and out.  
+
+---
+
+5. **`animation-delay`**  
+   - Specifies a delay before the animation starts.  
+   - Example: `animation-delay: 1s;`  
+     - The animation starts 1 second after being triggered.  
+
+---
+
+6. **`animation-iteration-count`**  
+   - Defines how many times the animation repeats.  
+   - Example: `animation-iteration-count: 2;`  
+     - The animation runs twice.  
+
+---
+
+7. **`animation-direction`**  
+   - Specifies the playback direction of the animation.  
+   - Example: `animation-direction: alternate;`  
+     - The animation alternates between normal and reverse directions on each iteration.  
+
+---
+
+8. **`transform`**  
+   - Applies 2D or 3D transformations to elements during animation.  
+   - Used Transformations:  
+     - **`translateY`**: Moves the element vertically.  
+     - **`translateX`**: Moves the element horizontally.  
+     - **`scale`**: Scales the element up or down.  
+
+---
+
+9. **`border-radius`**  
+   - Changes the roundness of the element's corners dynamically.  
+   - Values in Keyframes:  
+     - `20%`, `40%`, `60%`: Adjusts corner roundness as the animation progresses.  
+
+---
+
+10. **`background-color`**  
+    - Changes the background color of the element dynamically.  
+    - Colors in Keyframes:  
+      - `red`, `yellow`, `green`, `blue`, `rgb(227, 167, 210)`.
+
+---
+
+This structured note explains each property and its purpose clearly and concisely.
