@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units in html</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+  
+  *{
+    margin:0;
+    padding:0;
+  }
+
+  p{
+   
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing:auto;
+  font-size: 16px;
+  font-weight:400;
+  font-style:normal;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness: 2px;
+  text-decoration-skip:unset;
+  line-height:30px;
+  text-justify:inter-ideograph;
+  text-anchor: middle;
+  text-indent: 100px;
+  word-spacing: 10px;
+
+  overflow:auto;
+/* 
+  text-overflow: ellipsis;
+ white-space:nowrap; */
+
+ text-shadow: 5px 5px 3px red;
+ 
+ writing-mode:vertical-lr; 
+text-orientation:upright;
+
+  width:500px;
+  height: 200px;
+  border:2px solid red;
+padding:20px;
+margin:25px;
+  
+
+  }
+
+
+  div{
+    display:inline-block;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    text-shadow: 19px 11px 5px red;
+    box-shadow: 10px 11px 16px 2px black;
+
+
+    width: 500px;
+    padding:20px;
+    margin:20px;
+    border:2px solid rgb(231, 234, 22);
+    font-size: 30px;
+
+  }
+
+  div div{
+    /* border:2px solid red;  */
+
+    display:block;
+    display: flex;
+    justify-content: center;
+    
+    width: 400px;
+    height:20vh;
+    padding:5px;
+    margin:25px;
+    font-size: 0.75em;
+
+  }
+
+    </style>
+</head>
+<body>
+    <p>In order to determine how to write a paragraph, you will have to find a good topic and collect enough information regarding the topic. Once you find the supporting details, you can start framing the sentences, connect the sentences following a sequence, and find a perfect concluding sentence. To understand it better, we have provided a few paragraph writing examples for your reference.
+    Find a Topic Sentence: It is the first sentence which is an introduction to the given topic. It gives the main idea of what the paragraph would be about.
+        Supporting details: These are the details that can be collected from various sources. It comprises information related to the topic that gives strong support to the main topic.
+        Closing sentence: It is the last sentence that ends the paragraph and restates the whole idea of the paragraph. It is basically the concluding sentence that gives the basic idea of the whole topic.
+    </p>
+    <div>thi is div
+      
+        <div>
+            this is child div
+        </div>
+    </div>
+</body>
+</html>

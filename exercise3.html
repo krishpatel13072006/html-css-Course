@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design layout</title>
+</head>
+
+<style>
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+    :root{
+        --color:lightblue;
+        --seccolor:lightpink;
+    }
+header{
+    background-color: black;
+    opacity:0.89;
+    color:white;
+
+    text-decoration: none;
+    font-size: 35;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+   
+}
+h1{
+    padding: 10px 10px;
+    margin: 3px;
+    display:inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:var(--color);
+
+    margin-left:  120px;
+    margin-right: 350px;
+}
+
+.anchor{
+    margin-right: 170px;
+}
+.anchor:visited{
+    color: white;
+    text-decoration: none;
+}
+.anchor:link{
+    color: white;
+    text-decoration: none;
+}
+
+
+main{
+    margin: 4px;
+    height: 680px;
+    width: 1700px;
+    background-color: var(--color);
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+main> .inner{
+    margin: 5px;
+    display: flex;
+padding: 5px;
+
+justify-content: center;
+text-align: center;
+
+
+
+
+width: 450px;
+height: 350px;
+
+background-color: var(--seccolor);
+}
+
+footer{
+    
+    background-color: black;
+    opacity:0.89;
+    color:white;
+
+    text-decoration: none;
+    font-size: 35;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+</style>
+<body>
+    <header>
+        <h1>KP coders</h1>
+        <a class="anchor" href="/">Home</a>
+        <a class="anchor" href="/">Courses</a>
+        <a class="anchor" href="">Videos</a>
+        <a class="anchor" href="">Subscription</a>
+    </header>
+
+    <main>
+
+       
+
+            <div class="inner">box1</div>
+            <div class="inner">box2</div>
+       
+
+    </main>
+
+    <footer>All &#169; cpoyrights are reserved</footer>
+</body>
+</html>

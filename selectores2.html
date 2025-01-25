@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Css Selectors</title>
+    <style>
+        /* Css Float and Clear property */
+        /* img{
+    flow root display is used to apply float and clear properity on elements
+    display: flow-root;
+
+    float left and right is used to float content to the right and left side of elements 
+    float: left;
+
+} */
+
+
+        /* Universal selector is used with classes to select all the inner elements  */
+        .boxes * {
+            border: 2px solid black;
+            padding: 2px;
+            margin: 3px;
+        }
+
+        .box:first-child {
+            /* clear left right and both is used to clear the side to float properity of element and prevent it from flloation from those sides */
+            /* clear: both; */
+            color: red;
+            /* border: 2px solid black; */
+            margin: 5px;
+        }
+
+        .box:nth-child(2) {
+
+            /* color: red; */
+            /* border: 2px solid black; */
+            margin: 5px;
+        }
+
+        .box:nth-child(3) {
+            /* color: red; */
+            /* border: 2px solid black; */
+            margin: 5px;
+        }
+
+        /* 
+      .boxes .box:first-child {
+            color: red;
+        } 
+            */
+
+        /* 
+         div .box:first-child {
+            color: red;
+        } 
+            */
+
+
+        .box:first-child::first-letter {
+            color: blue;
+        }
+
+        .box:first-child:first-line {
+            color: rgb(30, 159, 99);
+        }
+
+        /* odd and even will select elements based on their property */
+        .box:nth-child(odd) {
+            background-color: lightgrey;
+        }
+
+        /* it will insert content before the the selected element */
+        .boxes::before {
+            content: "hello how are you";
+            /* we can also applies various css properities to thsi text */
+        }
+
+        /* it will insert content before the the selected element */
+        .boxes::after {
+            content: "Inserting text after boxes";
+            /* we can also applies various css properities to thsi text */
+        }
+
+        /* this will display the color to text white and background black while selecting text from website */
+        ::selection {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <img src="riverfront.png" alt="" width="340"> -->
+    <div class="boxes">
+
+        <div class="box">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, in
+            repellat blanditiis esse ratione nulla provident et quos tenetur, inventore rerum debitis aut distinctio
+            non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora ratione officiis deserunt
+            quia quasi ipsam laboriosam ut magnam dolorum quisquam natus dignissimos quibusdam recusandae, pariatur,
+            consequuntur aperiam in ipsum. Quia inventore obcaecati distinctio! Magnam minima quo quisquam qui eius
+            vitae hic, suscipit libero soluta quaerat ipsum atque, minus fugit illo voluptas ab? Inventore sunt nisi
+            aperiam quisquam perspiciatis consequatur magnam dolorum non deserunt harum? Sed maxime laborum ipsam at.
+
+            .</div>
+        <div class="box">Lorem ipsum dolor sit amet.</div>
+        <div class="box">Lorem ipsum dolor sit amet.</div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+
+body {
+    background-image: url("blackpage.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+div {
+    background-color: black;
+    padding: 25px 10px 25px 10px;
+    margin:15px;
+    border:3px solid red;
+    /* position:fixed;
+    top: 0px; */
+
+    position: sticky;
+    top:0px;
+
+
+}
+
+#name {
+    color: #ade6a2;
+    font-style: italic;
+    font-size: 35px;
+    margin-right: 180px;
+    margin-left: 30px;
+
+}
+
+
+.head {
+    color: white;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+label{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    text-transform: none;
+    margin-right:5px;
+}
+
+#submit{
+    color:black;
+    background-color: yellow;
+    text-align:center;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right:10px;
+}
+
+.headings {
+    color: rgb(136, 222, 222);
+}
+
+.intro {
+    color: rgb(245, 244, 244);
+    /* background-color: aliceblue; */
+    font-family: Courier;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+    border-style: inherit;
+
+}
+
+#iframe{
+padding-left:450px;
+margin-top:20px;
+margin-bottom:15px;
+}
+
+#carimg{
+    padding-left:80px;
+    width:max-content;
+}

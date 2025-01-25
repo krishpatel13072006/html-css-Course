@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding:0px;
+    color:rgb(10, 0, 0);
+}
+
+div{
+    width: 250px;
+    height: 20vh;
+    margin:2px;
+    padding: 2px;
+    border: 2px solid blue;
+
+    box-sizing: border-box;
+
+    box-shadow: 6px 8px 10px grey;
+}
+
+div > p:first-child{
+    margin:2px;
+    padding:3px;
+    width: 150px;
+    height: 10vh;
+    border: 2px solid rgb(8, 8, 16);
+
+    text-overflow:ellipsis;
+    /* white-space: nowrap; */
+    overflow:hidden scroll;
+  
+}

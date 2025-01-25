@@ -1,0 +1,65 @@
+Example: scaleX(2) doubles the width of the element.
+
+1. scaleY(value)
+   Description: Stretches or shrinks an element vertically along the Y-axis.
+   Example: scaleY(2) doubles the height of the element.
+
+2. scale(x, y)
+   Description: Scales an element on both X and Y axes.
+   Example: scale(1.5, 1.5) increases both width and height by 1.5 times.
+
+3. translateX(value)
+   Description: Moves an element horizontally by the specified value.
+   Example: translateX(2em) moves the element 2em to the right.
+
+4. translateY(value)
+   Description: Moves an element vertically by the specified value.
+   Example: translateY(2em) moves the element 2em downward.
+
+5. translate(x, y)
+   Description: Moves an element both horizontally (X-axis) and vertically (Y-axis).
+   Example: translate(2em, 2em) moves it 2em right and 2em down.
+
+6. matrix(a, b, c, d, e, f)
+   Description: Applies a 2D transformation using six values to manipulate position, scaling, rotation, or skew.
+   Example: matrix(1, -1, 0, 1, 0, 0) flips the element vertically.
+
+7. rotate(angle)
+   Description: Rotates an element around the Z-axis.
+   Example: rotate(270deg) rotates the element 270 degrees clockwise.
+
+8. skew(angleX, angleY)
+   Description: Skews (tilts) an element on both the X and Y axes.
+   Example: skew(30deg, 20deg) tilts it by 30 degrees horizontally and 20 degrees vertically.
+
+9. skewX(angle)
+   Description: Skews an element only on the X-axis.
+   Example: skewX(30deg) tilts it 30 degrees horizontally.
+
+10. skewY(angle)
+    Description: Skews an element only on the Y-axis.
+    Example: skewY(30deg) tilts it 30 degrees vertically.
+
+11. matrix3d()
+    Description: Applies a 3D transformation using 16 values to manipulate position, rotation, or scaling in 3D space.
+    Example: Complex 3D transformations like perspective or rotation.
+
+12. translate3d(x, y, z)
+    Description: Moves an element along the X, Y, and Z axes.
+    Example: translate3d(1px, 1px, 50px) moves the element deeper into the screen (Z-axis) while moving right and down slightly.
+
+13. rotateY(angle)
+    Description: Rotates an element around the Y-axis (3D effect).
+    Example: rotateY(45deg) creates a horizontal flip effect at 45 degrees.
+
+14. rotateX(angle)
+    Description: Rotates an element around the X-axis (3D effect).
+    Example: rotateX(45deg) creates a vertical flip effect at 45 degrees.
+
+15. translateZ(value)
+    Description: Moves an element along the Z-axis (depth).
+    Example: translateZ(50px) pushes the element 50px closer or farther away.
+
+16. perspective(value)
+    Description: Defines the perspective from which all child elements are viewed.
+    Example: perspective(500px) sets the perspective to 500px.

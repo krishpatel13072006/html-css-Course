@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecters in HTML</title>
+    <style>
+        /* Element Selector */
+        div {
+            color: red;
+        }
+
+        /* Class selector */
+        .green {
+            color: purple;
+        }
+
+        /* Id Selecter */
+        #yellow {
+            color: powderblue;
+        }
+
+        /* Child Selecter */
+        div >  article{
+            color:orange;
+        }
+
+        /* Parent Class */
+        div b{
+            color: #723333;
+        }
+
+        /* Universal Selecter */
+        a:visited{
+            color: #53b856;
+        }
+
+        /* websites that i havn't visited before  */
+        a:link{
+            color: #9f317a;
+        }
+
+        /* when clinking on links background color will be displayed in such color  */
+        a:hover{
+            color: #ce1313;
+        }
+
+        /* First child Selecter */
+        p:first-child{
+            background-color: #53b856;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="green">
+        Hello My name is krish
+    </div>
+
+    <div>
+        <p>
+            I likes reading books
+        </p>
+        <p>
+            I likes reading novels
+        </p>
+    </div>
+
+    <div>
+        <article>
+                I likes reading books
+        </article>
+
+    </div>
+</br>
+
+    <div>
+        <article>
+            <b>
+                I likes reading books
+            </b>
+        </article>
+
+    </div>
+</br>
+
+    <div id="yellow">
+        <label for="button">Click-me</label>
+        <input type="button" onclick="alert('thank you for visiting our website')" name="button" id="button">
+    </div>
+</br>
+
+    <a target="_blank" href="https://www.w3schools.com/Html/">W3school</a>
+
+    <a target="_blank" href="https://www.facebook.com/">facebook</a>
+
+    <div>
+        <p>
+            I likes reading stories
+        </p>
+        <p>
+            I likes reading comics
+        </p>
+    </div>
+
+
+
+</body>
+
+</html>

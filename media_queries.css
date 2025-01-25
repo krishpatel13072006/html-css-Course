@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+}
+
+.boxes{
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+
+    display: flex;
+    
+}
+.box{
+    background-color: blanchedalmond;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+}
+@media  only screen and (  max-width:455px) {
+    body{
+        background-color:yellow
+
+    }   
+    .boxes{
+        background-color: rgb(165, 165, 211);
+        border: 2px solid rgb(54, 223, 12);
+    
+        display: flex;
+    }
+    .box{
+        background-color: blanchedalmond;
+        padding: 5px;
+        margin: 5px;
+        width: 200px;
+        height: 100px;
+    }
+}
+/* 
+(min-width can also be used)
+    used to create responsive webpages and websites that can be style according to default width and size of device-----  
+    @media not|only mediatype and (expressions) {
+        css code
+    } */

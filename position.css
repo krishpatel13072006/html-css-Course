@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.maindiv{
+    margin:5px;
+    padding: 5px;
+    width: 80vw;
+    height:fit-content;
+    border:2px solid black;
+
+
+    /* filter and transfrom prpoerities also leads to changes in positioned of parent element
+    filter:invert(0);
+    transform : translate(0);
+    position: relative; */
+}
+
+.box{
+    width:70vw;
+    height: 300px;
+
+    position:sticky;
+    top:0px;
+    /* z-index: 1; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.box1{
+
+    width:90vw;
+background-color: pink;
+margin: 5px;
+padding: 3px;
+
+/* position: fixed; */
+
+
+/* position: relative;
+z-index:1; */
+}
+.box2{
+background-color: rgb(90, 192, 91);
+margin: 5px;
+padding: 3px;
+
+/* position:relative;
+top:-160px;
+left:30px; */
+/* right: 0px; */
+}
+.box3{
+background-color: rgb(69, 137, 185);
+margin: 5px;
+padding: 3px;
+
+/* position: relative;
+z-index: 1; */
+
+}
+.box4{
+background-color: rgb(110, 14, 30);
+margin: 5px;
+padding: 3px;
+/* 
+position: absolute;
+bottom: 60px; */
+}

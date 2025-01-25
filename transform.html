@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .head {
+            padding: 5px;
+            margin: 5px;
+            font-family: "Playwrite AU SA", serif;
+            font-weight: 100;
+            font-style: normal;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            text-shadow: 10px 10px 10px rgb(255, 0, 0, 1);
+
+
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            height: 85vh;
+            background-color: white;
+        }
+
+        main>div {
+            margin: 30px;
+        }
+
+        .box1 {
+            /* margin-left: 50px;
+            margin-top: 25px; */
+            padding: 0px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: 2px solid black;
+            color: white;
+            text-align: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* transform: rotate(45deg); */
+        }
+
+        div:hover {
+            /* /* clockwise */
+            /* transform: rotate(180deg);  */
+
+            /* /* anticlockwise */
+            /* transform: rotate(-180deg); */
+
+            /* used to increase and decrease the size of elements */
+            /* transform: scale(2); */
+
+            /* used to tilt the elements */
+            /* transform: skew(-45deg); */
+            /* transform: skew(45deg); */
+
+            /* used to move the elements alog X and Y axis */
+            /* transform: translate(500px);  */  /*left to right*/
+            /* transform: translate(-500px); */ /*right to left*/
+
+            /*top to bottom */
+            /* transform: translate(0px,200px); 
+
+            /*bottom to top*/
+            /* transform: translate(0px,-200px); */
+
+              /*left to right and top to bottom */
+            /* transform: translate(100px, 500px); */
+            /* used to move the elements */
+            transition: all 1s linear 1.5s;
+        }
+
+        .box2 {
+            /* margin-left: 50px;
+            margin-top: 25px; */
+            padding: 0px;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(22, 3, 3);
+            border: 2px solid black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+            /* transform: rotate(45deg); */
+
+
+        }
+
+        .box3 {
+            /* margin-left: 50px;
+            margin-top: 25px; */
+            padding: 0px;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(44, 141, 221);
+            border: 2px solid black;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* transform: rotate(45deg); */
+
+
+
+        }
+
+        .box4 {
+            /* margin-left: 50px;
+            margin-top: 25px; */
+            padding: 0px;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(78, 224, 25);
+            border: 2px solid black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            /* transform: rotate(45deg); */
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <h1>KrishPatel</h1>
+    </header>
+
+    <main>
+        <div class="box1">
+            <p>Hi</p>
+        </div>
+        <div class="box2">
+            <p>Hi</p>
+        </div>
+        <div class="box3">
+            <p>Hi</p>
+        </div>
+        <div class="box4">
+            <p>Hi</p>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

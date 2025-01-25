@@ -1,0 +1,21 @@
+shift+alt+downwards //copy single line for multiple times
+
+alt+uparrow //move line to upwards
+
+alt+downarrow //move line to downwards
+
+ctrl+slash //comment lines 
+
+ctrl+o //open file
+
+ctrl+ kS //save all
+
+ctrl+KO //open new folder
+
+ctrl+Ks //close new folder
+
+ctrl+f4 //close editor
+
+ctrl+ f //find
+
+ctrl +h //repalce 

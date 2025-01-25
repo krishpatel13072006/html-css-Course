@@ -1,0 +1,39 @@
+:root {
+    --color: blue;
+    --seccolor: green;
+}
+
+ul {
+
+    display: flex;
+    margin: 3px;
+    padding: 3px;
+
+
+}
+
+.li {
+    list-style-type: none;
+    /* list-style-position: inside; */
+    width: 10vw;
+    height: 10vh;
+    margin: 3px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: var(--scolor, pink);
+    border: 2px solid var(--color);
+}
+
+p {
+
+    margin: 2px;
+    padding: 3px;
+    background-color: var(--seccolor);
+}
